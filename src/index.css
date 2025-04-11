@@ -1,0 +1,105 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+a {
+  font-weight: 500;
+  color: black;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+  transition: 0.4s;
+}
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+.jordn {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  list-style-type: none;
+}
+.spantro{
+  color: black;
+  margin-right: 10px;
+}
+.lists{
+  transform: translate(+50%);
+  text-align: center;
+}
+.kosmos1{
+  padding: 10px 15px;
+  background-color: #1D72D2;
+  border-radius: 12px;
+  margin-top: 20px;
+  color: white;
+}
+.lobar{
+  display: flex;
+  justify-content: center !important;
+  align-items: center !important;
+}
+.tanho{
+  border: 1px solid #8A90A5 !important;
+  border-radius: 10px;
+}
+.koko{
+  display: flex;
+  justify-content: center;
+  text-align: center !important;
+}
+.goho{
+  margin-top: 150px !important;
+}
+.container{
+  width: 90%;
+  margin: 0 auto;
+}
+.kosmos {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 5px 15px;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: whitesmoke;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+.hero__boxes{
+  background-color: #F8FAFC;
+  padding: 30px 30px;
+}
+.kosmos:hover {
+  border-color: #646cff;
+}
+.kosmos:focus,
+.kosmos:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+.button1{
+  background-color: #1D72D2;
+  padding: 7px 20px;
+  border-radius: 8px;
+  color: white;
+
+}
+.button2{
+  background-color: whitesmoke;
+  padding: 7px 20px;
+  border-radius: 8px;
+  color: black;
+}
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
