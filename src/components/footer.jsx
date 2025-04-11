@@ -6,7 +6,6 @@ const Footer = () => {
     <footer className="py-12">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-8">
-          {/* Khan Academy */}
           <div>
             <h3 className="text-lg font-semibold text-gray-800 mb-4"><img src={logo} alt="" /></h3>
             <p className="text-gray-600 text-sm mb-4">
@@ -46,7 +45,6 @@ const Footer = () => {
             </div>
           </div>
 
-          {/* Support */}
           <div>
             <h3 className="text-lg font-semibold text-gray-800 mb-4">Support</h3>
             <ul className="text-gray-600 text-sm space-y-2">
@@ -56,7 +54,6 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Product */}
           <div>
             <h3 className="text-lg font-semibold text-gray-800 mb-4">Product</h3>
             <ul className="text-gray-600 text-sm space-y-2">
@@ -66,7 +63,6 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Security */}
           <div>
             <h3 className="text-lg font-semibold text-gray-800 mb-4">Security</h3>
             <ul className="text-gray-600 text-sm space-y-2">
@@ -76,7 +72,6 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Subscribe */}
           <div>
             <h3 className="text-lg font-semibold text-gray-800 mb-4">Subscribe</h3>
             <p className="text-gray-600 text-sm mb-4">
